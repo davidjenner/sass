@@ -1,0 +1,24 @@
+header, .contact {
+  height: 100vh;
+  color: #3a2a2a;
+  background: lightblue;
+}
+
+header button, .contact button {
+  background: #2189a8;
+}
+
+header button:hover, .contact button:hover {
+  background: red;
+}
+
+header button::after, .contact button::after {
+  content: "Helllooo";
+}
+
+.contact {
+  background: lightcyan;
+  background: lightcoral;
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */
