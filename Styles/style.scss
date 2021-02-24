@@ -1,11 +1,13 @@
 @import './variables';
 @import './header';
 
+body{
+    color: $bgColor;
+}
+
 .contact {
-    // @include flexCenter(row, blue);
+    @include flexCenter(row, blue);
     @extend header; //inherit styles from header
     //overide below
-    background: lightcyan;
     background: lightcoral;
-    width: 100% - 20%;
 }
